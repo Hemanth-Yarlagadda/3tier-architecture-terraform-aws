@@ -36,9 +36,7 @@ data "template_cloudinit_config" "config" {
 
     systemctl restart nginx
     systemctl status nginx
-
-    echo fin v1.00!
-
+    
     EOF    
   }
 }
