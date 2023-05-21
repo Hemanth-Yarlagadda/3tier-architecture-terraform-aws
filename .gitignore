@@ -36,3 +36,4 @@ terraform.rc
 $Ignore Plan files
 
 *.tfplan
+.vscode/settings.json
